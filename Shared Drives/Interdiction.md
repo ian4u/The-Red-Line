@@ -4,11 +4,15 @@ Let's begin.
 
 First of all we're gonna need our tools.
 
-```https://nmap.org```
+```
+https://nmap.org
+```
 ^ Download the nmap client and run it.
 
 For this one we're gonna need Python.
-```https://python.org```
+```
+https://python.org
+```
 ^ Follow the instructions.
 
 Ok let's see. Next we're gonna download CrackMapExec via Python (pip).
