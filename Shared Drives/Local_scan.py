@@ -6,7 +6,7 @@ except(e):
   os.system('pip install re')
   
 # Runs Nmap with the local search command
-os.system('masscan -p445,137,138,139 192.168.1.0/24 --rate 100 -oG masscan_output.txt')
+os.system('nmap --script smb-enum-shares -p 445 192.168.1.0/24 -oN smb_shares.txt')
 
 # Open the Nmap output file
 with open('smb_shares.txt', 'r') as file:
